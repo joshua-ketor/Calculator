@@ -64,3 +64,9 @@ function operate(operator, op1, op2) {
         break;
    } 
 }
+
+for (let i = 0; i < 10; i++) {
+    nums[i].addEventListener('click', () => {
+        display.textContent += i;
+    });
+}
