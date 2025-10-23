@@ -74,3 +74,8 @@ for (let i = 0; i < 10; i++) {
 clear.addEventListener('click', () => {
     display.textContent = "";
 });
+
+backspace.addEventListener('click', () => {
+    const end = display.textContent.length - 1;
+    display.textContent = display.textContent.slice(0, end);
+});
