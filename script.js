@@ -70,3 +70,7 @@ for (let i = 0; i < 10; i++) {
         display.textContent += i;
     });
 }
+
+clear.addEventListener('click', () => {
+    display.textContent = "";
+});
